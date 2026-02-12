@@ -1,0 +1,71 @@
+.inspiration-section {
+    margin-top: 100px;
+}
+
+.inspiration-card {
+    padding: 80px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.inspiration-card h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.inspiration-card p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.inspiration-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.insp-item {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.insp-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.insp-item:hover img {
+    transform: scale(1.05);
+}
+
+.insp-item span {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-grid {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.about-text p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: var(--charcoal);
+    opacity: 0.9;
+}
